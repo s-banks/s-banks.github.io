@@ -4,18 +4,19 @@
 	<meta charset="UTF-8">
 	<title>Codeup Personal Page Project</title>
 	<link rel="stylesheet" href="css/site.css">
+	<script src="https://kit.fontawesome.com/2c36f26a84.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <header class="header">
 	<img src="img/placeholder.png" class="placeholder" alt="placeholder">
 	<p>
 	<ul class="contact-info">
-		<li>Shane Banks</li>
-		<li>email here?</li>
-		<li>Phone number: 210-645-5151</li>
-		<li>LinkedIn link</li>
-		<li>github link</li>
-		<li>resume link</li>
+		<li class="my-name">Shane Banks</li>
+		<li><i class="fa-solid fa-square-envelope"></i> Email here? Maybe?</li>
+		<li><i class="fa-solid fa-square-phone"></i> 210-645-5151</li>
+		<li><i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/in/banksshane/" target="_blank"> Visit my LinkedIn</li></a>
+		<li><i class="fa-brands fa-github-square"></i> <a href="https://github.com/s-banks"> Visit my Github</a> </li>
+		<li><i class="fa-solid fa-file"></i> Resume link once created</li>
 	</ul>
 	</p>
 </header>
@@ -28,6 +29,28 @@
 	mollitia natus necessitatibus officiis, optio placeat quasi quia quod, quos repudiandae sunt voluptate voluptatum!
 </div>
 </main>
+<form class="form-style">
+	<ul>
+		<li>
+			<input type="text" name="field1" class="field-style field-split align-left" placeholder="Name - required" required/>
+			<input type="email" name="field2" class="field-style field-split align-right" placeholder="Email" />
+
+		</li>
+		<li>
+			<input type="text" name="field3" class="field-style field-split align-left" placeholder="Phone" />
+			<input type="url" name="field4" class="field-style field-split align-right" placeholder="Website" />
+		</li>
+		<li>
+			<input type="text" name="field3" class="field-style field-full align-none" placeholder="Subject" />
+		</li>
+		<li>
+			<textarea name="field5" class="field-style" placeholder="Message - required" required></textarea>
+		</li>
+		<li>
+			<input type="submit" value="Send Message" />
+		</li>
+	</ul>
+</form>
 
 <script src="css/site.css"></script>
 </body>
