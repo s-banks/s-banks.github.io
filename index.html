@@ -2,56 +2,60 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Codeup Personal Page Project</title>
+	<title>Personal Page *in work*</title>
 	<link rel="stylesheet" href="css/site.css">
 	<script src="https://kit.fontawesome.com/2c36f26a84.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <header class="header">
-	<img src="img/placeholder.png" class="placeholder" alt="placeholder">
-	<p>
+	<img src="img/me.png" class="main-image" alt="my-photo">
 	<ul class="contact-info">
 		<li class="my-name">Shane Banks</li>
-		<li><i class="fa-solid fa-square-envelope"></i> Email here? Maybe?</li>
-		<li><i class="fa-solid fa-square-phone"></i> 210-645-5151</li>
-		<li><i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/in/banksshane/" target="_blank"> Visit my LinkedIn</li></a>
-		<li><i class="fa-brands fa-github-square"></i> <a href="https://github.com/s-banks"> Visit my Github</a> </li>
-		<li><i class="fa-solid fa-file"></i> Resume link once created</li>
+<!--		<li><i class="fa-solid fa-square-envelope"></i> Email here? Maybe?</li>-->
+<!--		<li><i class="fa-solid fa-square-phone"></i> 210-645-5151</li>-->
+		<li><i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/in/banksshane/" target="_blank"> Visit my LinkedIn</a></li>
+		<li><i class="fa-brands fa-github-square"></i> <a href="https://github.com/s-banks" target="_blank"> Visit my Github</a> </li>
+		<li><i class="fa-solid fa-file"></i> Resume link once finalized</li>
 	</ul>
-	</p>
+
 </header>
 <hr>
 <main>
-<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta magni reprehenderit suscipit. At beatae distinctio
-	dolore eius harum hic laborum laudantium libero perspiciatis quaerat quam, quas quasi quisquam ratione totam?
-</div>
-<div>Accusantium ad alias, aliquam commodi cumque debitis delectus eaque eos facilis ipsam itaque iusto maiores maxime
-	mollitia natus necessitatibus officiis, optio placeat quasi quia quod, quos repudiandae sunt voluptate voluptatum!
-</div>
+	<div>
+		<p>
+			My name is Shane Banks, and I am a current student at Codeup in San Antonio, TX. I am currently working on HTML, CSS, Javascript, and jQuery. Java, MySQL, and the Spring framework is part of my future curriculum. I am projected to graduate in early September 2022.
+		</p>
+		<p>
+			My background is in aviation where I worked in electrical and avionics systems. There are several skills I gained in that discipline that I know will serve me well as I pursue a career in coding. Skills such as solving complex problems, understanding digital logic, and researching system functionality and known solutions. Team collaboration also played a large role in the problem analysis and solution implementation phases of some repairs.
+		</p>
+	</div>
 </main>
-<form class="form-style">
+<form class="form-style" action="https://getform.io/f/a1d0b592-fd62-4fc3-a1b1-a62fb36ff435" method="post">
 	<ul>
 		<li>
-			<input type="text" name="field1" class="field-style field-split align-left" placeholder="Name - required" required/>
-			<input type="email" name="field2" class="field-style field-split align-right" placeholder="Email" />
-
+			<input type="text" id="name" name="Name" class="field-style field-split align-left" placeholder="Name - required" required/>
+			<label for="name"></label>
+			<input type="email" id="email" name="Email" class="field-style field-split align-right" placeholder="Email" />
+			<label for="email"></label>
 		</li>
 		<li>
-			<input type="text" name="field3" class="field-style field-split align-left" placeholder="Phone" />
-			<input type="url" name="field4" class="field-style field-split align-right" placeholder="Website" />
+			<input type="text" id="phone" name="Phone#" class="field-style field-split align-left" placeholder="Phone" />
+			<label for="phone"></label>
+			<input type="url" id="website" name="Website" class="field-style field-split align-right" placeholder="Website" />
+			<label for="website"></label>
 		</li>
 		<li>
-			<input type="text" name="field3" class="field-style field-full align-none" placeholder="Subject" />
+			<input type="text" id="subject" name="Subject" class="field-style field-full align-none" placeholder="Subject" />
+			<label for="subject"></label>
 		</li>
 		<li>
-			<textarea name="field5" class="field-style" placeholder="Message - required" required></textarea>
+			<textarea name="Message" id="message" class="field-style" placeholder="Message - required" required></textarea>
+			<label for="message"></label>
 		</li>
 		<li>
 			<input type="submit" value="Send Message" />
 		</li>
 	</ul>
 </form>
-
-<script src="css/site.css"></script>
 </body>
 </html>
