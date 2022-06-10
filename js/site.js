@@ -1,6 +1,7 @@
 "use strict";
 (function () {
     //script deactivated until I learn how to secure an API call externally or on the backend
+    //Pulls Github repository list and populates the page with the data.
     // const URL = `https://api.github.com/users/s-banks/repos`
     // fetch(URL, {headers: {'Authorization': `token ${GITHUB_API_KEY}`}})
     //     .then((resp) => resp.json())
