@@ -1,2 +1,2 @@
 # s-banks.github.io
-### Repository for my Github.io site###
+### Repository for my Github.io site ###
